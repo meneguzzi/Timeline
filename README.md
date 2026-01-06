@@ -22,7 +22,7 @@ SVG output is recommended to take full advantage of links and tooltips, see the 
 
 ```Shell
 ruby timeline.rb README.md LR                   # Generate Left to Right DOT file
-..\graphviz\bin\dot.exe README.md.dot -O -T svg # Generate SVG file
+dot README.md.dot -O -T svg                     # Generate SVG file
 ```
 
 The second one is implemented in JavaScript and focuses on client-side rendering with [d3-graphviz](https://github.com/magjac/d3-graphviz).
@@ -37,81 +37,133 @@ Everything below is valid input for Timeline.
 
 <!--class1 #ff8888-->
 [IJCAI]: http://www.ijcai.org/ "International Joint Conference on Artificial Intelligence"
-[UAI]: http://auai.org/ "Conference on Uncertainty in Artificial Intelligence"
-<!--class2 #88ff88-->
+<!--class4 #ff88d1ff-->
+[UAI]: http://auai.org/uai2017/index.php "Conference on Uncertainty in Artificial Intelligence"
 [IROS]: http://www.iros.org/ "International Conference on Intelligent Robots and Systems"
-[ECAI]: https://www.ijcai-18.org/ "European Conference on Artificial Intelligence"
+<!--class1 #ff8888-->
+[ECAI]: http://www.ecai2016.org/ "European Conference on Artificial Intelligence"
+<!--class2 #88ff88-->
 [IAT]: http://wibih.unomaha.edu/wi "International Conference on Intelligent Agent Technology"
+<!--class4 #ff88d1ff-->
 [SBGames]: http://sbgames.org/ "Simposio Brasileiro de Games e Entretenimento Digital"
-<!--class3 #8888ff-->
-[ICRA]: http://www.icra2018.org/ "International Conference on Robotics and Automation"
+[AIIDE]: http://aiide.org
+[ICRA]: http://www.icra2017.org/ "International Conference on Robotics and Automation"
 [SAC]: http://www.sigapp.org/sac/ "Symposium On Applied Computing"
+<!--class1 #ff8888-->
 [AAAI]: http://www.aaai.org/Conferences/conferences.php "Association for the Advancement of Artificial Intelligence"
-[EUMAS]: https://eumas2017.ibisc.univ-evry.fr/ "European Conference on Multi-Agent Systems"
+<!--class2 #88ff88-->
+[EUMAS]: http://eumas-at2016.webs.upv.es/EUMAS2016.html "European Conference on Multi-Agent Systems"
 [ICAART]: http://www.icaart.org/ "International Conference on Agents and Artificial Intelligence"
 [ICAPS]: http://www.icaps-conference.org/ "International Conference on Automated Planning and Scheduling"
 [AAMAS]: http://www.ifaamas.org/ "International Conference on Autonomous Agents and Multiagent Systems"
+<!--class1 #ff8888-->
 [FLAIRS]: http://www.flairs.com/ "Florida Artificial Intelligence Research Society"
 <!--class2 #88ff88-->
 [KR]: http://www.kr.org/ "International Conference on Principles of Knowledge Representation and Reasoning"
-<!--class1 #ff8888-->
-[ICLP]: https://www.cs.nmsu.edu/ALP/iclp2018/ "International Conference on Logic Programming"
+[ICLP]: http://software.imdea.org/Conferences/ICLP2016/ "International Conference on Logic Programming"
+<!--class3 #8888ff-->
+[NeurIPS]: https://neurips.cc "Conference on Neural Information Processing Systems"
+[ICML]: https://icml.cc "Conference on Neural Information Processing Systems"
+[ICCV]: https://www.thecvf.com "International Conference on Computer Vision"
+[CVPR]: https://www.thecvf.com "Conference on Computer Vision and Pattern Recognition"
+[BMVC]: https://bmvc2020-conference.com "British Machine Vision Conference"
 
 ## January
-- [IJCAI] Abstracts
+
+- [IJCAI] Abstracts Submission
+- [ICML] Abstracts
 
 ## February
-- [ICLP] Abstracts Submission
-- [IJCAI] Submission
+
+<!-- - [IJCAI] Submission -->
+- [ICML] Submission
+- [UAI] Submission
+- [KR] Abstracts Submission
 
 ## March
-- [UAI] Submission
+
 - [IROS] Submission
+- [ICCV] Abstracts Submission
 
 ## April
+
 - [IJCAI] Notification
 - [ECAI] Submission
 - [IAT] Submission
-- [ICLP] Notification
-
-## May
-- [KR] Abstracts Submission
-- [UAI] Notification
-
-## June
-- [ECAI] Notification
-- [IAT] Notification
-- [IROS] Notification
-
-## July
-- [SBGames] Abstracts Submission
+- [ICLP] Abstracts Submission
+- [BMVC] Abstracts Submission
 - [KR] Notification
 
+## May
+
+- [NeurIPS] Abstracts Submission
+- [ICML] Notification
+- [IAT] Notification
+
+## June
+
+- [ECAI] Notification
+- [UAI] Notification
+- [IROS] Notification
+- [ICLP] Notification
+- [AIIDE] Submission
+
+
+## July
+
+- [SBGames] Abstracts Submission
+- [ICCV] Notification
+- [BMVC] Notification
+- [ICML] Conference
+- [KR] Conference
+
 ## August
+
 - [SBGames] Notification
+- [IJCAI] Conference
 
 ## September
+
 - [ICRA] Submission
 - [SAC] Abstracts Submission
 - [AAAI] Abstracts Submission
-- [EUMAS] Abstracts Submission
+- [EUMAS] Submission
+- [NeurIPS] Notification
 
 ## October
+
 - [EUMAS] Notification
 - [ICAART] Submission
 
 ## November
+
 - [AAAI] Notification
 - [SAC] Notification
 - [ICAPS] Abstracts Submission
 - [AAMAS] Abstracts Submission
 - [FLAIRS] Submission
 - [ICAART] Notification
+- [CVPR] Abstracts Submission
 
 ## December
 
+- [AAMAS] Notification
+
 ## January
+
 - [ICRA] Notification
 - [ICAPS] Notification
-- [AAMAS] Notification
 - [FLAIRS] Notification
+- [AAAI] Conference
+
+## February
+
+- [CVPR] Notification
+
+## May
+
+- [AAMAS] Conference
+
+## June
+
+- [ICAPS] Conference
